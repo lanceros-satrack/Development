@@ -7,3 +7,8 @@ variable "location" {
   description = "The location/region where the Data Lake is created. Changing this forces a new resource to be created."
   default     = "East US 2"
 }
+
+variable "enviroment" {
+  description = "Execution enviroment"
+  default     = "Production"
+}

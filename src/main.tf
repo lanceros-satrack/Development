@@ -1,5 +1,9 @@
 # Create a resource group
-resource "azurerm_resource_group" "daviddevops" {
+resource "azurerm_resource_group" "main" {
   name     = "${var.resource_group}"
   location = "${var.location}"  
+
+  tag {
+    enviroment = "${var.enviroment}"
+  }
 }
