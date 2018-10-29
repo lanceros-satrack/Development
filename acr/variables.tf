@@ -14,7 +14,7 @@ variable "enviroment" {
 }
 
 variable "storage_sku" {
-  default     = "Basic"
+  default     = "Classic"
 }
 
 variable "storage_account_name" {
