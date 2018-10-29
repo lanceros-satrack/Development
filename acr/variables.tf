@@ -18,7 +18,7 @@ variable "storage_sku" {
 }
 
 variable "storage_account_name" {
-  default     = "acrstorage"
+  default     = "acrstolanceros"
 }
 
 variable "acr_name" {
