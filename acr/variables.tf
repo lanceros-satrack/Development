@@ -12,3 +12,19 @@ variable "enviroment" {
   description = "Execution enviroment"
   default     = "Production"
 }
+
+variable "storage_sku" {
+  default     = "Basic"
+}
+
+variable "storage_account_name" {
+  default     = "acrstorage"
+}
+
+variable "storage_account_tier" {
+  default     = "Standard"
+}
+
+variable "storage_account_replication_type" {
+  default     = "LRS"
+}
