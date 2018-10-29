@@ -21,7 +21,7 @@ variable cluster_name {
     default = "akslanceros"
 }
 
-variable resource_group_name {
+variable resource_group {
     default = "devops"
 }
 

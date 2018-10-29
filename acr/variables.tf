@@ -21,6 +21,10 @@ variable "storage_account_name" {
   default     = "acrstorage"
 }
 
+variable "acr_name" {
+  default     = "acrlanceros"
+}
+
 variable "storage_account_tier" {
   default     = "Standard"
 }

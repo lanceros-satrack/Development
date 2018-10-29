@@ -1,10 +1,10 @@
 resource "azurerm_resource_group" "acr" {
-    name     = "${var.resource_group_name}"
+    name     = "${var.resource_group}"
     location = "${var.location}"
 }
 
 resource "azurerm_storage_account" "acr" {
-  name                     = "${var.acrstorage}"
+  name                     = "${var.storage_account_name}"
   resource_group_name      = "${azurerm_resource_group.acr.name}"
   location                 = "${azurerm_resource_group.acr.location}"
   account_tier             = "${var.storage_account_tier}"
