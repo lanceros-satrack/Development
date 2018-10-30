@@ -1,11 +1,11 @@
 variable "client_id" 
 {
-    default = "${ARM_CLIENT_ID}"
+    //default = "${ARM_CLIENT_ID}"
 }
 
 variable "client_secret" 
 {
-    default = "${ARM_CLIENT_SECRET}"
+    //default = "${ARM_CLIENT_SECRET}"
 }
 
 variable "agent_count" {
