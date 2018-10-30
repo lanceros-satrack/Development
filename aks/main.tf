@@ -29,10 +29,10 @@ resource "azurerm_kubernetes_cluster" "k8s" {
         os_disk_size_gb = 32
     }
 
-    service_principal {
-        client_id     = "${var.client_id}"
-        client_secret = "${var.client_secret}"
-    }
+    // service_principal {
+    //     client_id     = "${var.client_id}"
+    //     client_secret = "${var.client_secret}"
+    // }
 
     tags {
         Environment = "${var.enviroment}"
