@@ -1,12 +1,12 @@
-variable "client_id" 
-{
-    default = ${ARM_CLIENT_ID}
-}
+// variable "client_id" 
+// {
+//     default = $ARM_CLIENT_ID
+// }
 
-variable "client_secret" 
-{
-    default = ${ARM_CLIENT_SECRET}
-}
+// variable "client_secret" 
+// {
+//     default = $ARM_CLIENT_SECRET
+// }
 
 variable "agent_count" {
     default = 1
@@ -18,10 +18,6 @@ variable "ssh_public_key" {
 
 variable "dns_prefix" {
     default = "akslanceros"
-}
-
-variable "enableRBAC" {
-    default = true
 }
 
 variable cluster_name {
